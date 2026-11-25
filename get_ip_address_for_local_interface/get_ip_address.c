@@ -4,6 +4,7 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <string.h>
+#include <stdio.h>
 
 int get_ipv4_address(const char *ifname,
                      char *ip,
